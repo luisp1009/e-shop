@@ -1,6 +1,10 @@
 ## E-SHOP
 This is an e-commerce web application built with React that includes features such as a shopping basket, authentication and more
 
+Live demo: https://eshop-a6a1d.web.app/
+
+
+
 ## Prerequisites
 Node.js
 npm
@@ -35,4 +39,6 @@ Technologies Used
 - Stripe
 - Firebase
 - CSS
+
+
 
