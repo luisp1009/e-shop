@@ -2,3 +2,29 @@
     margin: 0;
     padding: 0;
   }
+  @media (min-width: 320px) and (max-width: 480px) {
+  .header{
+    width: 100%;
+  }
+  .nav__item{
+    display: none !important;
+  }
+   .header__searchInput{
+    width: 90px !important;
+    margin-left: -20px;
+   }
+
+   .home__container{
+    width: 100%;
+   }
+   .checkout__ad{
+    display: none;
+   }
+   .checkout__title{
+    display: none;
+   }
+   .checkout{
+    display: flex;
+    flex-direction: column;
+   }
+  }
