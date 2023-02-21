@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
   }
   @media (min-width: 320px) and (max-width: 480px) {
   .header{
@@ -8,6 +9,9 @@
   }
   .nav__item{
     display: none !important;
+  }
+  .nav__itemBasket{
+    width: 15px !important;
   }
    .header__searchInput{
     width: 90px !important;
@@ -26,5 +30,8 @@
    .checkout{
     display: flex;
     flex-direction: column;
+   }
+   .home__image{
+    display: none ;
    }
   }
